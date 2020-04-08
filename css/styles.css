@@ -26,6 +26,10 @@
     padding-left: 40px;
 }
 
+.navbar.navbar-expand-lg{
+    padding:0px;
+}
+
 .fa {
     background: black;
     height: 33px;
@@ -35,11 +39,20 @@
     border-radius: 17px;
     padding-top:8px;
     color:white;
+    margin:0 10px;
 }
 
-
+.logo{
+    margin-bottom:10px;
+}
 
 .middle-container {
     text-align:center;
     margin: 10px auto;
+}
+
+.bottom-txt{
+    margin:auto;
+    width:20%;
+    padding:20px;
 }
