@@ -10,12 +10,6 @@ h2{
     text-align:center;
 }
 
-P{
-    font-family: 'sans-serif';
-    font-size:1.1rem;
-    color:#323232;
-}
-
 .container {
     max-width: 500px;
 }
@@ -142,7 +136,11 @@ P{
     padding-top:10px;
 }
 
-
+.page-text{
+    font-family:'Montserrat';
+    font-weight:600;
+    color:grey;
+}
 
 *{
     margin: 0;
