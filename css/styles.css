@@ -1,8 +1,17 @@
 .logo {
-    max-width: 17%;
+    max-width: 15%;
+    min-width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+h2{
+    text-align:center;
+}
+
+P{
+    font-family: 'Ubuntu';
 }
 
 .container {
@@ -11,23 +20,24 @@
 
 .nav-link {
     color: black;
-    font-weight: 400;
     font-family: 'Montserrat';
 }
+
 
 .main-img {
     display: block;
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10%;
 }
 
 .nav-item {
-    padding-left: 40px;
+    padding-right: 10px;
 }
 
-.navbar.navbar-expand-lg{
-    padding:0px;
+.navbar.navbar-expand-lg {
+    padding: 0px;
 }
 
 .fa {
@@ -37,22 +47,88 @@
     text-align: center;
     width: 33px;
     border-radius: 17px;
-    padding-top:8px;
-    color:white;
-    margin:0 10px;
+    padding-top: 8px;
+    color: white;
+    margin: 0 10px;
 }
 
-.logo{
-    margin-bottom:10px;
+.logo {
+    margin-bottom: 10px;
 }
 
 .middle-container {
-    text-align:center;
+    display:block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.bottom-container{
+    display:block;
+    text-align: center;
     margin: 10px auto;
 }
 
-.bottom-txt{
-    margin:auto;
-    width:20%;
-    padding:20px;
+.content-container{
+    display: grid;
+    grid-template-columns: 45% auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.left-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .right-text{
+     display:grid;
+     grid-template-rows:auto auto;
+     width:75%;
+ }
+
+.bottom-txt {
+    margin: auto;
+    width: 20%;
+    padding: 20px;
+}
+
+.static {
+    position:absolute;
+    background: white;
+    max-width:400px;
+  }
+  
+.static:hover {
+    opacity:0;
+  }
+
+.active{
+    max-width:400px;
+}
+
+.active:hover{
+    max-width:450px;
+}
+
+.float-previews {
+    display:block;
+    max-width: 22%;
+    float: left;
+}
+
+.test-preview{
+    max-width:50%;
+}
+
+.description {
+    margin: 10px auto 50px auto;
+    text-align: left;
+    vertical-align:center;
+    display:inline-block;
+    margin: 10px auto;
+}
+
+.text{
+    padding-top:10px;
 }
