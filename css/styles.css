@@ -6,8 +6,8 @@
     margin-right: auto;
 }
 
-h2{
-    text-align:center;
+h2 {
+    text-align: center;
 }
 
 .container {
@@ -53,19 +53,19 @@ h2{
 }
 
 .middle-container {
-    display:block;
+    display: block;
     text-align: center;
     margin: 20px auto;
     transition: 1s;
 }
 
-.bottom-container{
-    display:block;
+.bottom-container {
+    display: block;
     text-align: center;
     margin: 10px auto;
 }
 
-.content-container{
+.content-container {
     display: grid;
     grid-template-columns: 45% auto;
     grid-gap: 10px;
@@ -73,17 +73,22 @@ h2{
     transition: 1s;
 }
 
+.shop-container {
+    display: grid;
+    grid-template-rows: 10% 500px;
+}
+
 .left-image {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
- .right-text{
-     display:grid;
-     grid-template-rows:auto auto;
-     width:75%;
- }
+.right-text {
+    display: grid;
+    grid-template-rows: 75px auto;
+    width: 75%;
+}
 
 .bottom-txt {
     margin: auto;
@@ -92,70 +97,73 @@ h2{
 }
 
 .static {
-    position:absolute;
+    position: absolute;
     background: white;
-    max-width:400px;
-  }
-  
-.static:hover {
-    opacity:0;
-  }
-
-.active{
-    max-width:400px;
-    margin-right:100px;
+    max-width: 400px;
 }
 
-.active:hover{
-    max-width:450px;
+.static:hover {
+    opacity: 0;
+}
+
+.active {
+    max-width: 400px;
+    margin-right: 100px;
+}
+
+.active:hover {
+    max-width: 450px;
 }
 
 .float-previews {
-    display:block;
+    display: block;
     max-width: 22%;
     float: left;
 }
 
-.icehouse-preview{
-    max-width:75%;
+.icehouse-preview {
+    max-width: 75%;
 }
 
-.about-preview{
-    max-width:50%;
+.about-preview {
+    max-width: 50%;
 }
 
 .description {
     margin: 10px auto 50px auto;
     text-align: left;
-    vertical-align:center;
-    display:inline-block;
+    vertical-align: center;
+    display: inline-block;
     margin: 10px auto;
 }
 
-.text{
-    padding-top:10px;
+.text {
+    padding-top: 10px;
 }
 
-.page-text{
-    font-family:'Montserrat';
-    font-weight:600;
-    color:grey;
+.page-text {
+    font-family: 'Montserrat';
+    color: grey;
+    text-align:justify;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: "montserrat",sans-serif;
-  }
+    font-family: "montserrat", sans-serif;
+}
 
-  .contact-form{
+.contact-form {
     max-width: 600px;
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
-  }
-  
-  .contact-form-text{
+}
+
+.contact-form-text {
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -166,16 +174,19 @@ h2{
     outline: none;
     color: #ddd;
     transition: 1s;
-    border-radius:20px;
-  }
-  .contact-form-text:focus{
+    border-radius: 20px;
+}
+
+.contact-form-text:focus {
     box-shadow: 0 0 10px 4px #34495e;
-  }
-  textarea.contact-form-text{
+}
+
+textarea.contact-form-text {
     resize: none;
     height: 120px;
-  }
-  .contact-form-btn{
+}
+
+.contact-form-btn {
     float: right;
     border: 0;
     background: #111;
@@ -184,8 +195,8 @@ h2{
     border-radius: 20px;
     cursor: pointer;
     transition: 0.5s;
-  }
-  .contact-form-btn:hover{
+}
+
+.contact-form-btn:hover {
     background: #2980b9;
-  }
-  
+}
