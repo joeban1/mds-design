@@ -7,7 +7,10 @@
 }
 
 h2 {
+    font-family:"Montserrat";
     text-align: center;
+    padding-top:50px;
+    font-weight:1000;
 }
 
 .container {
@@ -16,7 +19,8 @@ h2 {
 
 .nav-link {
     color: black;
-    font-family: 'Montserrat';
+    font-family: 'Ubuntu';
+    font-weight:1000;
 }
 
 
@@ -26,6 +30,14 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10%;
+}
+
+.navbar-brand{
+    padding-top:30px;
+}
+
+.nav-home{
+    padding-top:59px;
 }
 
 .nav-item {
@@ -67,11 +79,18 @@ h2 {
 .bottom-container {
     display: block;
     text-align: center;
-    margin: 10px auto;
+    margin: 20px auto;
+}
+
+.page-content{
+    display:flex;
+    justify-content: center;
 }
 
 .content-container {
     display: grid;
+    width:80%;
+    align-items:center;
     grid-template-columns: 45% auto;
     grid-gap: 10px;
     padding: 10px;
@@ -87,13 +106,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:100px;
 }
 
 .right-text {
     display: grid;
-    grid-template-rows: 75px auto;
+    grid-template-rows:auto auto auto;
     width: 75%;
+    line-height:2;
 }
 
 .bottom-txt {
@@ -114,7 +133,7 @@ h2 {
 
 .active {
     max-width: 400px;
-    margin-right: 100px;
+    margin-right:200px;
 }
 
 .active:hover {
@@ -132,7 +151,7 @@ h2 {
 }
 
 .about-preview {
-    max-width: 50%;
+    max-width: 65%;
 }
 
 .description {
@@ -150,6 +169,7 @@ h2 {
 .page-text {
     font-family: 'Montserrat';
     color: darkgrey;
+    font-weight:200;
     text-align:justify;
     display: grid;
     align-items: center;
@@ -205,4 +225,13 @@ textarea.contact-form-text {
 
 .contact-form-btn:hover {
     background: #2980b9;
+}
+
+#icey{
+    max-width:400px;
+    margin-right:100px;
+}
+
+#icey2{
+    max-width:400px;
 }
