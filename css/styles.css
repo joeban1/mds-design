@@ -9,8 +9,12 @@
 h2 {
     font-family:"Montserrat";
     text-align: center;
-    padding-top:50px;
     font-weight:1000;
+}
+
+h3 {
+    font-family:"Montserrat";
+    text-align: center;
 }
 
 .container {
@@ -23,6 +27,9 @@ h2 {
     font-weight:1000;
 }
 
+.gap{
+    margin-bottom:100px;
+}
 
 .main-img {
     display: block;
@@ -87,10 +94,17 @@ h2 {
     justify-content: center;
 }
 
+.box-head{
+    grid-column-start:1;
+    grid-column-end:3;
+    padding-bottom:50px;
+}
+
 .content-container {
     display: grid;
     width:80%;
     align-items:center;
+    grid-template-rows: auto auto;
     grid-template-columns: 45% auto;
     grid-gap: 10px;
     padding: 10px;
@@ -99,7 +113,7 @@ h2 {
 
 .shop-container {
     display: grid;
-    grid-template-rows: 10% 500px;
+    grid-template-rows:500px;
 }
 
 .left-image {
@@ -110,8 +124,6 @@ h2 {
 
 .right-text {
     display: grid;
-    grid-template-rows:auto auto auto;
-    width: 75%;
     line-height:2;
 }
 
@@ -146,8 +158,8 @@ h2 {
     float: left;
 }
 
-.icehouse-preview {
-    max-width: 75%;
+.project-image {
+    max-width: 100%;
 }
 
 .about-preview {
