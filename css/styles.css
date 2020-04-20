@@ -80,7 +80,6 @@ h3 {
     display: block;
     text-align: center;
     margin: 20px auto;
-    transition: 1s;
 }
 
 .bottom-container {
@@ -108,7 +107,6 @@ h3 {
     grid-template-columns: 45% auto;
     grid-gap: 10px;
     padding: 10px;
-    transition: 1s;
 }
 
 .shop-container {
@@ -133,24 +131,6 @@ h3 {
     padding: 20px;
 }
 
-.static {
-    position: absolute;
-    background: white;
-    max-width: 400px;
-}
-
-.static:hover {
-    opacity: 0;
-}
-
-.active {
-    max-width: 400px;
-    margin-right:200px;
-}
-
-.active:hover {
-    max-width: 450px;
-}
 
 .float-previews {
     display: block;
@@ -239,7 +219,7 @@ textarea.contact-form-text {
     background: #2980b9;
 }
 
-#icey{
+#icey1{
     max-width:400px;
     margin-right:100px;
 }
@@ -247,3 +227,18 @@ textarea.contact-form-text {
 #icey2{
     max-width:400px;
 }
+
+
+.carousel-inner img {
+    margin: auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon{
+    background-image: url('https://apufpel.com.br/assets/img/seta_prim.png')
+ }
+ .carousel-control-next-icon{
+   background-image: url('https://apufpel.com.br/assets/img/seta_ult.png')
+ }
