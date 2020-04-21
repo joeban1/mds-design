@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MDS Design | The Icehouse</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -13,13 +14,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand">
         <a class="navbar-brand" href="index.html">
             <img class="logo" src="images/logo.png" alt="mds-logo-img">
         </a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
+                <a class="nav-link home" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="about.html">ABOUT</a>
@@ -44,6 +45,12 @@
             </div>
             <div class="left-image">
                 <div id="image-control" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="project-image" src="images/icehouse-fp1.jpg" alt="First slide">
@@ -124,6 +131,7 @@
             class="fa fa-envelope"></a>
     </div>
 
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
