@@ -25,19 +25,17 @@ h3 {
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 10%;
         /* The width is 100%, when the viewport is 768px or smaller */
     }
 
-    .nav-item{
-        font-size:.75rem;
+    .nav-item {
+        font-size: .75rem;
     }
 
     .content-container {
         display: grid;
         width: 80%;
         align-items: center;
-        grid-template-rows: auto auto;
         grid-template-columns: 100%;
         grid-gap: 10px;
         margin-top: 50px;
@@ -49,14 +47,14 @@ h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
 
-    .home{
-        display:none;
+    .home {
+        display: none;
     }
 
-    #icey1{
+    #icey1 {
         max-width: 300px;
     }
 
@@ -66,7 +64,22 @@ h3 {
 
     .about-preview {
         max-width: 65%;
-        margin:-50px 0 50px 0;
+        margin: -50px 0 50px 0;
+    }
+
+    .fp {
+        min-width: 150px;
+    }
+
+    .carousel-inner img {
+        margin: auto;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-text {
+        margin-top: 40px;
     }
 }
 
@@ -76,14 +89,12 @@ h3 {
         max-width: 50%;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 10%;
     }
 
     .content-container {
         display: grid;
         width: 80%;
         align-items: center;
-        grid-template-rows: auto auto;
         grid-template-columns: 45% auto;
         grid-gap: 10px;
         margin-top: 50px;
@@ -96,14 +107,14 @@ h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
 
     #icey1 {
         max-width: 400px;
         margin-right: 200px;
     }
-    
+
     #icey2 {
         max-width: 400px;
     }
@@ -112,6 +123,19 @@ h3 {
         max-width: 65%;
     }
 
+    .box-head {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding-bottom: 50px;
+    }
+
+
+    .carousel-inner img {
+        margin: auto;
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .navbar-brand {
@@ -163,12 +187,6 @@ h3 {
 .page-content {
     display: flex;
     justify-content: center;
-}
-
-.box-head {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding-bottom: 50px;
 }
 
 
@@ -291,13 +309,6 @@ textarea.contact-form-text {
 
 .carousel-indicators {
     bottom: -50px;
-}
-
-.carousel-inner img {
-    margin: auto;
-    max-width: 80%;
-    display: flex;
-    justify-content: center;
 }
 
 .carousel-control-prev-icon {
